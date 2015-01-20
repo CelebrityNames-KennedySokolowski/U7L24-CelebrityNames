@@ -33,7 +33,13 @@ public class CelebrityNames
             String middleName = sc.next( );
             String lastName = sc.next( );
             String birthday = sc.next( );
-            reversedName[j] = lastName + ", " + firstName + " " + middleName + " -- " + birthday;
+            reversedName[j] = birthday +
+                              " -- " + 
+                              lastName + 
+                              ", " + 
+                              firstName + 
+                              " " + 
+                              middleName;
         } 
         
         Arrays.sort(reversedName);
